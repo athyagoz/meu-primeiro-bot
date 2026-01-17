@@ -48,3 +48,14 @@ Cada registro de funcionário deve apresentar um menu (geralmente representado p
 
 ### Comportamento Atual:
 O card do funcionário exibe apenas o Nome, CPF e um toggle de "Etapa concluída". Não há botões ou ícones para acessar as funções de edição ou exclusão.
+
+
+## Bug 04: Botões do Menu Lateral Inativos
+- **Severidade:** Média (Impede a navegação entre módulos)
+- **Local:** Menu Lateral Esquerdo (Sidebar)
+
+### Comportamento Esperado:
+Ao clicar nos ícones do menu lateral (Dashboard, Configurações, etc.), o usuário deve ser redirecionado para uma tela com a mensagem "Em breve".
+
+### Comportamento Atual:
+Os ícones são clicáveis visualmente (o cursor muda), mas nenhuma ação ocorre. O sistema permanece na mesma tela e não redireciona o usuário.
