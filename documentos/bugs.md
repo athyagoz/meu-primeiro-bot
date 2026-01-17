@@ -32,3 +32,9 @@ O formulário deve fechar e o novo funcionário deve aparecer na tabela principa
 
 ### Comportamento Atual:
 Os dados desaparecem dos campos de preenchimento, o formulário não fecha e o funcionário **não é adicionado** à lista.
+
+
+## Testes de Validação (Passo 3 - Fluxo Negativo)
+- **Cenário:** Tentar salvar com campos vazios ou CPF inválido.
+- **Resultado:** **PASSOU**.
+- **Observações:** O sistema exibiu corretamente as mensagens de erro em vermelho para o campo "Nome" e barrou CPFs incompletos, impedindo o envio de dados inválidos.
