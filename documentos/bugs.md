@@ -16,3 +16,19 @@ Todos os itens do menu exibem o texto estático "ITEM 1" repetidamente.
 ---
 ### Notas de Automação
 Verificar se o loop de renderização no código está utilizando uma variável dinâmica ou apenas uma string fixa.
+
+
+## Bug 02: Falha ao Salvar Novo Funcionário
+- **Severidade:** Alta (Impede o uso principal do sistema)
+- **Local:** Modal "Adicionar Funcionário"
+
+### Passo a Passo para Reproduzir:
+1. Clique em "+ Adicionar Funcionário".
+2. Preencha Nome e CPF corretamente.
+3. Clique no botão "Salvar".
+
+### Comportamento Esperado:
+O formulário deve fechar e o novo funcionário deve aparecer na tabela principal.
+
+### Comportamento Atual:
+Os dados desaparecem dos campos de preenchimento, o formulário não fecha e o funcionário **não é adicionado** à lista.
