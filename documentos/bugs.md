@@ -13,10 +13,6 @@ Os itens de navegação no topo devem estar numerados sequencialmente para facil
 ### Comportamento Atual (Site)
 Todos os itens do menu exibem o texto estático "ITEM 1" repetidamente.
 
----
-### Notas de Automação
-Verificar se o loop de renderização no código está utilizando uma variável dinâmica ou apenas uma string fixa.
-
 
 ## Bug 02: Falha ao Salvar Novo Funcionário
 - **Severidade:** Alta (Impede o uso principal do sistema)
