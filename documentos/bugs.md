@@ -38,3 +38,13 @@ Os dados desaparecem dos campos de preenchimento, o formulário não fecha e o f
 - **Cenário:** Tentar salvar com campos vazios ou CPF inválido.
 - **Resultado:** **PASSOU**.
 - **Observações:** O sistema exibiu corretamente as mensagens de erro em vermelho para o campo "Nome" e barrou CPFs incompletos, impedindo o envio de dados inválidos.
+
+## Bug 03: Ausência de Botão de Ações (Editar/Excluir)
+- **Severidade:** Alta (Impede a gestão dos dados)
+- **Local:** Listagem de Funcionários / Cards
+
+### Comportamento Esperado:
+Cada registro de funcionário deve apresentar um menu (geralmente representado por três pontinhos "...") que permita abrir as opções de "Editar" e "Excluir".
+
+### Comportamento Atual:
+O card do funcionário exibe apenas o Nome, CPF e um toggle de "Etapa concluída". Não há botões ou ícones para acessar as funções de edição ou exclusão.
